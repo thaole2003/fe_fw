@@ -1,0 +1,79 @@
+body {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.container>header{
+    position: relative;
+}
+
+.container>header>.shopping-mall{
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-maill>h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0;
+}
+
+.shopping-maill>h5 {
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+}
+
+nav {
+}
+
+.container>div>article{
+margin-top: 5px;
+}
+
+.container>div>* {
+}
+
+.poly-cart{
+    margin-top: 5px;
+}
+.poly-cart ul{
+    padding: Opx;
+    margin: Opx;
+    list-style: none;
+    font-variant: small-caps;
+}
+.poly-cart .panel-heading strong{
+font-variant: small-caps;
+font-size: larger;
+text-shadow: 0 0 2px darkgray;
+}
+.poly-prod{
+    text-align:center;
+
+    border: 1px silver solid;
+    border-radius: 8px;
+
+}
+
+    .poly-prod .panel-body img{
+        padding: 10px;
+        height: 200px;
+        max-width:95%;
+}
+    .poly-prod .panel-default{
+        border-radius: 8px 8px 0 0 ;
+        padding: 5px;
+        background-color: gainsboro;
+    }
+    .poly-prod .panel-footer{
+        border-radius: 0 0 8px 8px ;
+
+        padding: 5px;
+        background-color: gainsboro;
+    }
